@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://annotatingadler.github.io/testing/candida/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Candida" ] },
+    "items": [
+      {
+        "id": "https://annotatingadler.github.io/testing/candida/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 179.0,
+        "items": [
+          {
+            "id": "https://annotatingadler.github.io/testing/candida/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://annotatingadler.github.io/testing/candida/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia800309.us.archive.org/15/items/candida-file/Candida%20file.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 179.0
+                },
+                "target": "https://annotatingadler.github.io/testing/candida/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
