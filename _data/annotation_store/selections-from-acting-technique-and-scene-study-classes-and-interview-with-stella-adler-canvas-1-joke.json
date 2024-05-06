@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://annotatingadler.github.io/testing/annotations/selections-from-acting-technique-and-scene-study-classes-and-interview-with-stella-adler-canvas-1-joke.json",
+  "type": "AnnotationPage",
+  "label": "Joke",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "selections-from-acting-technique-and-scene-study-classes-and-interview-with-stella-adler-canvas-1-joke-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "\"I live now with the birds in Hollywood.\"",
+          "format": "text/plain",
+          "purpose": "commenting"
+        },
+        {
+          "type": "TextualBody",
+          "value": "Film Industry",
+          "format": "text/plain",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://annotatingadler.github.io/testing/selections-from-acting-technique-and-scene-study-classes-and-interview-with-stella-adler/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://norman.hrc.utexas.edu/notDM/objectManifest/p15878coll78v3/15",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "PointSelector",
+          "t": "214.0"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://annotatingadler.github.io/testing/annotations/selections-from-acting-technique-and-scene-study-classes-and-interview-with-stella-adler-canvas-1-interviewer.json",
+  "type": "AnnotationPage",
+  "label": "Interviewer",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "selections-from-acting-technique-and-scene-study-classes-and-interview-with-stella-adler-canvas-1-interviewer-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "The interviewer asks whether locale makes a difference for the actor and implies that Adler has just recently moved \"here\" aka Los Angeles. ",
+          "format": "text/plain",
+          "purpose": "commenting"
+        },
+        {
+          "type": "TextualBody",
+          "value": "Interviewer",
+          "format": "text/plain",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "source": {
+          "id": "https://annotatingadler.github.io/testing/selections-from-acting-technique-and-scene-study-classes-and-interview-with-stella-adler/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://norman.hrc.utexas.edu/notDM/objectManifest/p15878coll78v3/15",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1133.0,1148.0"
+        }
+      }
+    }
+  ]
+}
